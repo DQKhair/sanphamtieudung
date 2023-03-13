@@ -26,7 +26,7 @@
   }
   .dieuhuong{
     position: absolute;
-    color: white;
+    color: var(--color-main);
     font-size: 25px;
     top: 46%;
     padding-left: 17px;
