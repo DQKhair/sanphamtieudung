@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="./content/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- link bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./content/css/main.css">
+    <!-- link slider -->
+    <link rel="stylesheet" href="./content/css/slider.css">
+    <title>AORI</title>
+</head>
+<body>
+    <style>
+        header h2{
+            color: var(--color-main)
+        }
+    </style>
+
+    <!-- header -->
+    <header class="container-fluid">
+        <!-- header_head -->
+        <div class="logo_head d-flex justify-content-center align-items-center mt-3">
+            <div><img style="width: 15rem;" src="./content/img/logo.png" alt="logo"></div>
+
+            <div>
+                <h2>CÔNG TY TNHH AORI VIỆT NAM</h2>
+                <p class="mx-sm-5"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
+            </div>
+
+            <div>
+                <ul class="d-flex">
+                    <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
+                    <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg mt-3" style="background-color: var(--color-main);">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Trang Chủ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Giới thiệu</a>
+              </li>
+            
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Danh mục sản phẩm
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-uppercase" href="#">Quantum beaty world</a></li>
+                  <li><a class="dropdown-item text-uppercase" href="#">quantum daily world</a></li>
+                  <li><a class="dropdown-item text-uppercase" href="#">quantum healthy world</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-uppercase" href="#">tiêu dùng xanh aori</a></li>
+                  <li><a class="dropdown-item text-uppercase" href="#">nước hoa</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Khuyến mãi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Tin Tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+
+      <!-- RenderBody -->
+    <div class="container">
+        <!-- home/index -->
+        <!-- slider -->
+        <div class="banner">
+            <div class="slide-container" id="slide_contnainer">
+              <div class="dieuhuong">
+                 <i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+                 <i class="fa fa-chevron-circle-right" onclick="Next();"></i>
+              </div>
+              <div class="chuyen-slide">
+                <img src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/tai-background-dep-nhat-780x488.jpg"> 
+                <img src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/background-dep-cute-de-thuong.png"> 
+                <img src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/background-dep-cute-cho-ghep-anh.jpg"> 
+                
+              </div>
+            </div>
+        </div>
+        <!-- end slider -->
+        
+        
+    </div>
+    <!-- EndBody -->
+
+    <!-- Layout_footer -->
+    <footer class="container-fluid mt-3" style="background-color: var(--color-main);">
+        <div class="container mx-md-auto row text-light pt-3">
+            <div class="col-md-4">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>CÔNG TY TNHH AORI VIỆT NAM</p>
+                <p>Mã số thuế: 0316621998</p>
+                <p>Địa chỉ: Toà 10, toà nhà Pax Sky, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Quận 1, TPHCM</p>
+                <p>Hotline/Zalo: 0339.705.917</p>
+                <p>Email: Aorivietnam@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>CÔNG TY TNHH AORI VIỆT NAM</p>
+                <p>Mã số thuế: 0316621998</p>
+                <p>Địa chỉ: Toà 10, toà nhà Pax Sky, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Quận 1, TPHCM</p>
+                <p>Hotline/Zalo: 0339.705.917</p>
+                <p>Email: Aorivietnam@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <div class="progress" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>CÔNG TY TNHH AORI VIỆT NAM</p>
+                <p>Mã số thuế: 0316621998</p>
+                <p>Địa chỉ: Toà 10, toà nhà Pax Sky, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Quận 1, TPHCM</p>
+                <p>Hotline/Zalo: 0339.705.917</p>
+                <p>Email: Aorivietnam@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- copyright -->
+    <div class="bg-dark text-light"><p style="text-align: center;">Copyright 2022 © K02</p></div>
+    <!-- end copyright -->
+
+    <!-- scripts slider -->
+    <script src="./scripts/slider.js"></script>
+    <!-- scripts bootstrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
