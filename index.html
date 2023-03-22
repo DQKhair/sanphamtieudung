@@ -21,10 +21,13 @@
             color: var(--color-main)
         }
         /* mobile */
-      @media (max-width:740px) {
-        .mobile_header div:nth-child(2),
-        .mobile_header div:nth-child(3){
+      @media (max-width:740px) {  
+        .mobile_header div:nth-child(3),
+        .mobile_header div:nth-child(2){
           display: none;
+        }
+        .login_none{
+          display: inline-block !important;
         }
       }
     </style>
@@ -46,6 +49,10 @@
                     <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
                 </ul>
             </div>
+            <div class="ms-5">
+              <a href="./login.html" class="btn btn-success">Đăng nhập</a>
+              <a href="./login.html" class="btn btn-success">Đăng ký</a>
+            </div>
         </div>
     </header>
     <!-- end header -->
@@ -59,6 +66,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light login_none" style="display: none;" aria-current="page" href="./login.html">Đăng nhập</a>
+            </li> 
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="./introduction.html">Giới thiệu</a>
             </li>
