@@ -37,61 +37,36 @@
                 <h2 class="text-center text-uppercase">Natural Shop</h2>
                 <p class="fs-3 text-center"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
             </div>
-
-            <div>
-                <ul class="d-flex">
-                    <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
-                    <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
-                </ul>
-            </div>
         </div>
+        <div class="progress" style="height: 1px;">
+            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
     </header>
     <!-- end header -->
 
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg mt-3" style="background-color: var(--color-main);">
-      <div class="container fw-normal text-uppercase">
-        <a class="navbar-brand text-light ms-3" href="./index.html">Trang Chủ</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="./introduction.html">Giới thiệu</a>
-            </li>
-            <li class="nav-item dropdown ">
-              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Danh mục sản phẩm
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_beauty_world.html">Quantum beaty world</a></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_daily_world.html">quantum daily world</a></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_healthy_world.html">quantum healthy world</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_tieu_dung_xanh.html">tiêu dùng xanh aori</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./sale_page.html">Khuyến mãi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./news_page.html">Tin Tức</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./contact_page.html">Liên hệ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-      <!-- end nav -->
 
       <!-- RenderBody -->
     <div class="container">
-        <div class="ms-3">
-
+        <div class="ms-3 mx-md-auto my-5" style="width: 50%;">
+            <form action="admin_page.html" method="post">
+                <h3 class="text-center text-uppercase fs-2 fw-bold" style="color:var(--color-main)">Đăng nhập</h3>
+                <div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Tên đăng nhập</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Lưu mật khẩu</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                </div>
+            </form>
         </div>
       </div>
       <!-- EndBody -->

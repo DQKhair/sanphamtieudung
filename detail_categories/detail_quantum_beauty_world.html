@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="../content/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- link bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../content/css/main.css">
+    <!-- link css home/index  -->
+    <link rel="stylesheet" href="../content/css/home.css">
+    <title>Natural Shop</title>
+</head>
+<body>
+    <style>
+        header h2{
+            color: var(--color-main)
+        }
+        /* mobile */
+      @media (max-width:740px) {
+        .mobile_header div:nth-child(2),
+        .mobile_header div:nth-child(3){
+          display: none;
+        }
+      }
+    </style>
+
+    <!-- header -->
+    <header class="container-fluid ">
+        <!-- header_head -->
+        <div class="logo_head d-flex justify-content-center align-items-center mt-3 mobile_header">
+            <!-- <div><img style="width: 15rem;" src="./content/img/logo.png" alt="logo"></div> -->
+
+            <div>
+                <h2 class="text-center text-uppercase">Natural Shop</h2>
+                <p class="fs-3 text-center"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
+            </div>
+
+            <div>
+                <ul class="d-flex">
+                    <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
+                    <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg mt-3" style="background-color: var(--color-main);">
+      <div class="container fw-normal text-uppercase">
+        <a class="navbar-brand text-light ms-3" href="../index.html">Trang Chủ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="../introduction.html">Giới thiệu</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Danh mục sản phẩm
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_beauty_world.html">Quantum beaty world</a></li>
+                <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_daily_world.html">quantum daily world</a></li>
+                <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_healthy_world.html">quantum healthy world</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_tieu_dung_xanh.html">tiêu dùng xanh aori</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-light" href="../sale_page.html">Khuyến mãi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="../news_page.html">Tin Tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="../contact_page.html">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!-- end nav -->
+
+      <!-- RenderBody -->
+    <div class="container">
+        <div class="ms-3">
+
+          <!-- breadcrumb -->
+      <div class="container my-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item ms-3"><a href="../index.html"><i class="fa-solid fa-house me-1"></i>Trang chủ</a></li>
+              <li class="breadcrumb-item " aria-current="page">Danh mục sản phẩm</li>
+              <li class="breadcrumb-item active" aria-current="page">Quantum beauty world</li>
+            </ol>
+          </nav>
+      </div>
+      <!-- end breadcrumb -->
+
+      <div class="container mt-3">
+        <h2 class="text-uppercase" style="text-align: center;">QUANTUM BEAUTY WORLD</h2>
+        <div class="progress mx-auto" style="height: 2px;width: 30%;">
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <!-- groupcard -->
+        <div class="row row-cols-2 row-cols-md-4 g-4 my-3 text-center">
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_taytebaochetloveworldrauma.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tẩy tế bào chết love world tinh chất rau má</h5>
+                <p class="card-text text-danger">299.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_suaruamatloveworldnhau.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sửa rửa mặt love worl tinh chất trái nhàu</h5>
+                <p class="card-text text-danger">299.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_matnanguloveworldhoahong.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mặt nạ ngủ love world tinh chất hoa hồng</h5>
+                <p class="card-text text-danger">249.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_dauxakholoveworldbuoi.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dầu xả khô love world tinh chất bưởi</h5>
+                <p class="card-text text-danger">449.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_kemdanhranghuongthaoloveworld.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kem đánh răng hương thảo love world</h5>
+                <p class="card-text text-danger">159.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_daugoiphubacloveworldthantrucnhat.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dầu gọi phủ bạc love world tinh chất than trúc nhật</h5>
+                <p class="card-text text-danger">490.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_daugoidauloveworldbuoi.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dầu gọi đầu love world tinh chất bưởi</h5>
+                <p class="card-text text-danger">499.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../content/img/quantum_beauty_world_bbcreamloveworldhoahongspf30+.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BBCream love world tinh chất hoa hồng SPF30+</h5>
+                <p class="card-text text-danger">699.000VND</p>
+                <a href="#" class="btn btn-danger disabled"><i class="fa-solid fa-cart-shopping me-1"></i>Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      <!-- EndBody -->
+    <!-- Layout_footer -->
+    <footer class="container-fluid mt-3" style="background-color: var(--color-main);">
+        <div class="container mx-md-auto row text-light pt-3">
+            <div class="col-md-4">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-uppercase">Natural shop</p>
+                <p>Mã số thuế: 0316621998</p>
+                <p>Địa chỉ: Toà 10, toà nhà Pax Sky, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Quận 1, TPHCM</p>
+                <p>Hotline/Zalo: 0925.328.842</p>
+                <p>Email: Maikhanh101094@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-uppercase">danh mục sản phẩm</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>QUANTUM BEAUTY WORLD</p>
+                <p>QUANTUM DAILY WORLD</p>
+                <p>TIÊU DÙNG XANH AORI</p>
+                <p>QUANTUM HEALTHY WORLD</p>
+                <img class="mb-2" style="width: 10rem;" src="../content/img/da-thong-bao.png" alt="thongbaocongthuong">
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-uppercase">Bản đồ</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <div class="wpb_map_wraper">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.468316830857!2d106.691126!3d10.763966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb0e80119d3%3A0xfe35215d07ed3610!2sPAX%20SKY!5e0!3m2!1svi!2sus!4v1678709914741!5m2!1svi!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><noscript><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.468316830857!2d106.691126!3d10.763966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb0e80119d3%3A0xfe35215d07ed3610!2sPAX%20SKY!5e0!3m2!1svi!2sus!4v1678709914741!5m2!1svi!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- copyright -->
+    <div class="bg-dark text-light text-center"><p class="mb-auto">Copyright 2022 © K02</p></div>
+    <!-- end copyright -->
+    <!-- scripts bootstrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -37,63 +37,40 @@
                 <h2 class="text-center text-uppercase">Natural Shop</h2>
                 <p class="fs-3 text-center"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
             </div>
-
-            <div>
-                <ul class="d-flex">
-                    <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
-                    <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
-                </ul>
-            </div>
         </div>
+        <div class="progress" style="height: 1px;">
+            <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
     </header>
     <!-- end header -->
 
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg mt-3" style="background-color: var(--color-main);">
-      <div class="container fw-normal text-uppercase">
-        <a class="navbar-brand text-light ms-3" href="./index.html">Trang Chủ</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="./introduction.html">Giới thiệu</a>
-            </li>
-            <li class="nav-item dropdown ">
-              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Danh mục sản phẩm
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_beauty_world.html">Quantum beaty world</a></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_daily_world.html">quantum daily world</a></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_quantum_healthy_world.html">quantum healthy world</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-uppercase" href="./detail_categories/detail_tieu_dung_xanh.html">tiêu dùng xanh aori</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./sale_page.html">Khuyến mãi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./news_page.html">Tin Tức</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="./contact_page.html">Liên hệ</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-      <!-- end nav -->
 
       <!-- RenderBody -->
-    <div class="container">
-        <div class="ms-3">
 
-        </div>
-      </div>
+    <div class="container-fluid row my-3">
+        <div class="col-md-2">
+            <h3 class="text-center fw-bold text-uppercase">Quản trị viên</h3>
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-qlnguoidung-list" data-bs-toggle="list" href="#list-qlnguoidung" role="tab" aria-controls="list-qlnguoidung">Quản lý người dùng</a>
+              <a class="list-group-item list-group-item-action" id="list-qlnv-list" data-bs-toggle="list" href="#list-qlnv" role="tab" aria-controls="list-qlnv">Quản lý nhân viên</a>
+              <a class="list-group-item list-group-item-action" id="list-qlkh-list" data-bs-toggle="list" href="#list-qlkh" role="tab" aria-controls="list-qlkh">Quản lý khách hàng</a>
+              <a class="list-group-item list-group-item-action" id="list-qldh-list" data-bs-toggle="list" href="#list-qldh" role="tab" aria-controls="list-qldh">Quản lý đơn hàng</a>
+              <a class="list-group-item list-group-item-action" id="list-qldmsp-list" data-bs-toggle="list" href="#list-qldmsp" role="tab" aria-controls="list-qldmsp">Quản lý danh mục sản phẩm</a>
+              <a class="list-group-item list-group-item-action" id="list-qlsp-list" data-bs-toggle="list" href="#list-qlsp" role="tab" aria-controls="list-qlsp">Quản lý sản phẩm</a>
+              <a class="list-group-item list-group-item-action" id="list-qlcthd-list" data-bs-toggle="list" href="#list-qlcthd" role="tab" aria-controls="list-qlcthd">Quản lý chi tiết hóa đơn</a>
+            </div>
+          </div>
+          <div class="col-md-9 ms-3 mt-3">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-qlnguoidung" role="tabpanel" aria-labelledby="list-qlnguoidung-list">Nội dung quản lý người dùng</div>
+              <div class="tab-pane fade" id="list-qlnv" role="tabpanel" aria-labelledby="list-qlnv-list">Nội dung quản lý nhân viên</div>
+              <div class="tab-pane fade" id="list-qlkh" role="tabpanel" aria-labelledby="list-qlkh-list">Nội dung quản lý khách hàng</div>
+              <div class="tab-pane fade" id="list-qldh" role="tabpanel" aria-labelledby="list-qldh-list">Nội dung quản lý đơn hàng</div>
+              <div class="tab-pane fade" id="list-qldmsp" role="tabpanel" aria-labelledby="list-qldmsp-list">Nội dung quản lý danh mục sản phẩm</div>
+              <div class="tab-pane fade" id="list-qlsp" role="tabpanel" aria-labelledby="list-qlsp-list">Nội dung quản lý sản phẩm</div>
+              <div class="tab-pane fade" id="list-qlcthd" role="tabpanel" aria-labelledby="list-qlcthd-list">Nội dung quản lý chi tiết hóa đơn</div>
+            </div>
+          </div>
       <!-- EndBody -->
     <!-- Layout_footer -->
     <footer class="container-fluid mt-3" style="background-color: var(--color-main);">
