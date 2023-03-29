@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="../content/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- link bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../content/css/main.css">
+    <!-- link css home/index  -->
+    <link rel="stylesheet" href="../content/css/home.css">
+    <title>Natural Shop</title>
+</head>
+<body>
+    <style>
+        header h2{
+            color: var(--color-main)
+        }
+        /* mobile */
+      @media (max-width:740px) {
+        .mobile_header div:nth-child(2),
+        .mobile_header div:nth-child(3){
+          display: none;
+        }
+      }
+    </style>
+
+    <!-- header -->
+    <header class="container-fluid ">
+        <!-- header_head -->
+        <div class="logo_head d-flex justify-content-center align-items-center mt-3 mobile_header">
+            <!-- <div><img style="width: 15rem;" src="./content/img/logo.png" alt="logo"></div> -->
+
+            <div>
+                <h2 class="text-center text-uppercase">Natural Shop</h2>
+                <p class="fs-3 text-center"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
+            </div>
+
+            <div>
+                <ul class="d-flex">
+                    <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
+                    <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg mt-3" style="background-color: var(--color-main);">
+        <div class="container fw-normal text-uppercase">
+          <a class="navbar-brand text-light ms-3" href="../index.html">Trang Chủ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="../introduction.html">Giới thiệu</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Danh mục sản phẩm
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_beauty_world.html">Quantum beaty world</a></li>
+                  <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_daily_world.html">quantum daily world</a></li>
+                  <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_quantum_healthy_world.html">quantum healthy world</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-uppercase" href="../detail_categories/detail_tieu_dung_xanh.html">tiêu dùng xanh aori</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../sale_page.html">Khuyến mãi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../news_page.html">Tin Tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="../contact_page.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+
+      <!-- RenderBody -->
+    <div class="container my-3">
+      <div class="ms-3">
+        <!-- breadcrumb -->
+      <div class="container my-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item ms-3"><a href="../index.html"><i class="fa-solid fa-house me-1"></i>Trang chủ</a></li>
+              <li class="breadcrumb-item " aria-current="page">Danh mục sản phẩm</li>
+              <li class="breadcrumb-item " aria-current="page"><a href="../detail_categories/detail_quantum_beauty_world.html">Quantum beauty world</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Dầu gội đầu Love World tinh chất bưởi</li>
+            </ol>
+          </nav>
+      </div>
+      <!-- end breadcrumb -->
+      </div>
+        <div class="ms-3 row">
+          <div class="col-md-4 my-3">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../content/img/quantum_beauty_world_daugoidauloveworldbuoi.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="https://aorishop.com/wp-content/uploads/2022/11/z3924985314290_5ba3129903883925ad6292c2819752c1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://aorishop.com/wp-content/uploads/2022/11/z3924985322542_fca86c1074d36a0ea45bf10f4bcb7b54.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- <img style="width: 20rem;" class="shadow-sm border border-3" src="../content/img/quantum_beauty_world_taytebaochetloveworldrauma.jpg" alt="img_detail_sp"> -->
+          </div>
+          <div class="col-md-8 my-3">
+            <h3>Dầu gội đầu Love World tinh chất bưởi</h3>
+            <h4 class="text-danger">499.000 VNĐ</h4>
+           <h5>Công dụng</h5>
+           <p>- Làm sạch</p>
+           <p>- Trị gàu, chống rụng tóc</p>
+           <p>- Không gây khô hay nhờn tóc</p>
+           <p>- Giúp tóc suôn mượt bồng bềnh, hương thơm thư giãn</p>
+           <p>- Giúp tóc khỏe, phục hồi tóc hư tổn</p>
+           <h5>Cách sử dụng</h5>
+           <p>- Có thể gội lạnh, ấm tùy theo thời tiết, khí hậu từng vùng</p>
+           <p>- Xả tóc ướt, ẩm đều, lấy lượng dầu gội khoảng 2 nhấn, tạo bọt, sau đó gãi ngược từ trán lên đỉnh đầu, tai, gáy cũng làm như vậy. Xả tóc và gội lại lần 2, lấy 1 lượng tương ứng 1 nhấn và làm lại các thao tác trên tới khi hết ngứa và xả lại thật sạch với nước</p>
+           <p>- Mùa đông cách ngày gội lần, không sử dụng nước quá nóng, gây tổn thương cho da đầu</p>
+           <p>- Mùa hè nên gội hàng ngày</p>
+           <p>- Đi tiệm 2 ngày/lần, như vậy sẽ luôn giúp da đầu sạch sẽ</p>
+           <p>* Là dầu gội 100% thiên nhiên, không chứa chất tạo bọt, hay hóa chất như các loại dầu gội thông thường, không chứa silicon</p>
+           <hr>
+            <h5 class="text-danger">Số lượng</h5>
+            <div class="d-flex">
+              <p class="border border-1 px-2 down_qty" onclick="downto()" style="cursor: pointer;">-</p>
+              <input style="height:25px;" class="text-center mx-2" id="input_qty" type="number" value="1" min="1" max="10" step="1"/>
+              <p class="border border-1 px-2 up_qty" onclick="upto()" style="cursor: pointer;">+</p>
+            </div>
+            <div class="my-3">
+              <a class="btn btn-success" href="#">Thêm vào giỏ hàng</a>
+              <a class="btn btn-danger" href="#">Mua sản phẩm</a>
+            </div>
+          </div>  
+        </div>
+        <div>
+          <h3>Mô tả</h3>
+          <hr>
+          <p>Dầu gội Love World tinh chất bưởi – cho tóc vào nếp và suôn mượt suốt ngày dài. </p>
+          <p>Bạn có biết, mái tóc mỗi ngày đều tiếp xúc với nhiều yếu tố gây hại đến từ môi trường: nắng nóng, tia UV, thay đổi nhiệt độ đột ngột, gió lạnh, khói bụi bẩn & ô nhiễm… Bên cạnh đó, tóc còn chịu thương tổn từ cặn hóa chất trong sản phẩm tạo kiểu và chăm sóc tóc. Lâu dần, những yếu tố gây hại này sẽ khiến mái tóc trông yếu hơn, xỉn màu mất đi độ bóng mượt tự nhiên, thậm chí trở nên khô xơ và dễ gãy rụng. Love World Việt Nam giới thiệu đến bạn giải pháp cứu cánh hiệu quả cho tóc từ các chuyên gia trong lĩnh vực làm đẹp: Dầu gội Love World tinh chất bưởi! </p>
+          <img class="my-3" style="width: 100%;" src="https://thegioiyeuthuong.vn/wp-content/uploads/2022/04/DAU-GOI-2048x1449.jpg" alt="anh tay te bao chet tinh chat nhau">
+          <h5 class="text-uppercase fw-bold">Thông tin sản phẩm</h5>
+          <p>Với chiết xuất từ vỏ bưởi và nước chưng cất vỏ bưởi ép lạnh nguyên chất, kết hợp với tinh chất bồ kết, dầu dừa, lá hương nhu,…Dầu gội Love World chứa hàm lượng cao các Vitamin E&C, protein thực vật giúp giảm rụng, nuôi dưỡng tóc chắc khỏe đồng thời kích thích mọc tóc con. Hoạt chất Hydrolyzed Silk đặc chế từ vỏ bưởi có khả năng phục hồi tổn thương và tái tạo, ngăn chặn sự thoát nước, dưỡng ẩm chuyên sâu cho mái tóc. Đồng thời Glycerin tinh chế từ dừa giúp tóc luôn bồng bềnh và óng ả. Với cơ chế tạo bọt 100% thiên nhiên từ bồ kết giúp đánh bay gàu mà không kích thích tiết dầu, giúp mái tóc thoáng sạch bồng bềnh. Hương liệu tự nhiên từ tinh dầu bưởi, hương nhu, bồ kết sẽ đem lại mùi hương nhẹ nhàng thư giãn giúp bạn sảng khoái ngay khi sử dụng sản phẩm. Dầu gội Love World không chứa các thành phần hóa học, nên phù hợp với mọi đối tượng người sử dụng khác nhau, thân thiện với môi trường.</p>
+          <h5 class="text-uppercase fw-bold">Hướng dẫn bảo quản</h5>
+          <ul>
+            <li>- Nắp kín, để ở nơi khô ráo thoáng mát.</li>
+            <li>- Để xa tầm với của trẻ em. Nếu sản phẩm rơi vào mắt hãy rửa sạch bằng nước.</li>
+          </ul>
+          <p>Xuất xứ: Việt Nam</p>
+          <p>HSD: 3 năm kể từ ngày sản xuất</p>
+          <p>NSX: Xem trên bao bì</p>
+          <h5 class="text-uppercase fw-bold">Thông tin thương hiệu</h5>
+          <p>Sau rất nhiều năm kinh nghiệm trong lĩnh vực chăm sóc sức khỏe và làm đẹp của đội ngũ sáng lập, Love World bắt đầu với ước mơ mang những sản phẩm thiên nhiên chất lượng cao đến với mọi người dân trên toàn thế giới. </p>
+          <p>Ứng dụng Cơ lượng tử đột phá cùng nguồn nguyên liệu 100% từ thiên nhiên, các sản phẩm Chăm sóc sức khoẻ & Làm đẹp của thương hiệu Love World Việt Nam NÓI KHÔNG với hoá chất độc hại mà đảm bảo an toàn với sức khỏe người tiêu dùng và thân thiện môi trường.</p>
+          <img style="width: 100%;" src="../content/img/GiayCongNhan.jpg" alt="giaycongnhan">
+        </div>
+      </div>
+      <!-- EndBody -->
+    <!-- Layout_footer -->
+    <footer class="container-fluid mt-3" style="background-color: var(--color-main);">
+        <div class="container mx-md-auto row text-light pt-3">
+            <div class="col-md-4">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-uppercase">Natural shop</p>
+                <p>Mã số thuế: 0316621998</p>
+                <p>Địa chỉ: Toà 10, toà nhà Pax Sky, 51 Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Quận 1, TPHCM</p>
+                <p>Hotline/Zalo: 0925.328.842</p>
+                <p>Email: Maikhanh101094@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-uppercase">danh mục sản phẩm</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>QUANTUM BEAUTY WORLD</p>
+                <p>QUANTUM DAILY WORLD</p>
+                <p>TIÊU DÙNG XANH AORI</p>
+                <p>QUANTUM HEALTHY WORLD</p>
+                <img class="mb-2" style="width: 10rem;" src="../content/img/da-thong-bao.png" alt="thongbaocongthuong">
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-uppercase">Bản đồ</h3>
+                <div class="progress mb-2" style="height: 1px;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 100%; background-color: #fff" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <div class="wpb_map_wraper">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.468316830857!2d106.691126!3d10.763966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb0e80119d3%3A0xfe35215d07ed3610!2sPAX%20SKY!5e0!3m2!1svi!2sus!4v1678709914741!5m2!1svi!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><noscript><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.468316830857!2d106.691126!3d10.763966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb0e80119d3%3A0xfe35215d07ed3610!2sPAX%20SKY!5e0!3m2!1svi!2sus!4v1678709914741!5m2!1svi!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- copyright -->
+    <div class="bg-dark text-light text-center"><p class="mb-auto">Copyright 2022 © K02</p></div>
+    <!-- end copyright -->
+    <!-- scripts bootstrap5 -->
+    <script>
+      var down = document.getElementsByClassName('down_qty')[0];
+      var up = document.getElementsByClassName('up_qty')[0];
+      var input_qty=document.getElementById('input_qty').value;
+      var ip_qty = Number(input_qty);
+      var upto =()=>{
+        if(ip_qty>0){
+          // console.log(++ip_qty)
+          document.getElementById('input_qty').value = ++ip_qty;
+          // ip_qty++;
+        }
+      }
+
+      var downto=()=>{
+        if(ip_qty>1){
+          document.getElementById('input_qty').value = --ip_qty;
+          // console.log(--ip_qty)
+          // ip_qty--;
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
