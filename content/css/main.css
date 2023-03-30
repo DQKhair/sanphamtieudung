@@ -15,3 +15,12 @@ li{
 :root{
     --color-main: #015659;
 }
+   /* mobile */
+   @media (max-width:740px) {  
+    .mobile_header div:nth-child(3){
+      display: none;
+    }
+    .telphone{
+      display: none;
+    }
+  }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./content/css/slider.css">
     <!-- link css home/index  -->
     <link rel="stylesheet" href="./content/css/home.css">
+    <link rel="stylesheet" href="./content/css/phone_contact.css">
     <title>Natural Shop</title>
 </head>
 <body>
@@ -20,24 +21,13 @@
         header h2{  
             color: var(--color-main)
         }
-        /* mobile */
-      @media (max-width:740px) {  
-        .mobile_header div:nth-child(3),
-        .mobile_header div:nth-child(2){
-          display: none;
-        }
-        .login_none{
-          display: inline-block !important;
-        }
-      }
     </style>
 
     <!-- header -->
     <header class="container-fluid ">
         <!-- header_head -->
         <div class="logo_head d-flex justify-content-center align-items-center mt-3 mobile_header">
-            <!-- <div><img style="width: 15rem;" src="./content/img/logo.png" alt="logo"></div> -->
-
+            <div><a href="./index.html"><img style="width: 15rem;" src="./content/img/logoNaturalShop.png" alt="logo"></a></div>
             <div>
                 <h2 class="text-center text-uppercase">Natural Shop</h2>
                 <p class="fs-3 text-center"> <b>Tư vấn và cung cấp sản phẩm xanh 100% thiên nhiên</b></p>
@@ -48,10 +38,6 @@
                     <li><i style="color:var(--color-main)" class="fa-solid fa-phone-volume me-sm-2"></i></li>
                     <li style="color:var(--color-main)">Hotline: 0925.328.842</li>
                 </ul>
-            </div>
-            <div class="ms-5">
-              <a href="./login.html" class="btn btn-success">Đăng nhập</a>
-              <a href="./signup_page.html" class="btn btn-success">Đăng ký</a>
             </div>
         </div>
     </header>
@@ -66,9 +52,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light login_none" style="display: none;" aria-current="page" href="./login.html">Đăng nhập</a>
-            </li> 
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="./introduction.html">Giới thiệu</a>
             </li>
@@ -134,20 +117,16 @@
             </div>
           </div>
           <div class="row bg_gioithieu text-center py-3 fs-5">
-            <div class="col-md-4">
-              <p>Email</p>
-              <p><b>Maikhanh101094@gmail.com</b></p>
-            </div>
-            <div class="col-md-4">
+            <div class="col-md">
               <p>Hotline:</p>
               <p><b>0925.328.842</b></p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md">
               <p>Liên kết nhanh</p>
               <div class=" d-flex justify-content-center">
                 <p ><a href="#"><img style="width: 2rem;" src="./content/img/pngwing.com (3).png" alt=""></a></p>
                 <p class="mx-2"><a href="#"><img style="width: 2rem;" src="./content/img/pngwing.com.png" alt=""></a></p> 
-                <p ><a href="#"><img style="width: 2rem;" src="./content/img/zalo.png" alt=""></a></p>
+                <p ><a href="https://zalo.me/0925328842"><img style="width: 2rem;" src="./content/img/zalo.png" alt=""></a></p>
               </div>
             </div>
           </div>
@@ -168,7 +147,7 @@
                   <div class="card-body">
                     <h5 class="card-title text-dark">Tẩy tế bào chết Love World tinh chất rau má</h5>
                     <p class="card-text text-danger">299.000VND</p>
-                    <a href="./detail_products/detail_TayTeBaoChetLoveWordTinhChatRauMa.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                    <a href="./detail_products/detail_TayTeBaoChetLoveWordTinhChatRauMa.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                   </div>
                 </div>
               </a>
@@ -180,7 +159,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Sửa rửa mặt Love Worl tinh chất trái nhàu</h5>
                       <p class="card-text text-danger">299.000VND</p>
-                      <a href="./detail_products/detail_SuaRuaMatTraiNhau.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_SuaRuaMatTraiNhau.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -192,7 +171,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Mặt nạ ngủ Love World tinh chất hoa hồng</h5>
                       <p class="card-text text-danger">249.000VND</p>
-                      <a href="./detail_products/detail_MatNaNguLoveWorldTinhChatHoaHong.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_MatNaNguLoveWorldTinhChatHoaHong.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -204,7 +183,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu xả khô Love World tinh chất bưởi</h5>
                       <p class="card-text text-danger">449.000VND</p>
-                      <a href="./detail_products/detail_DauXaKhoTinhChatBuoi.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauXaKhoTinhChatBuoi.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -216,7 +195,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Kem đánh răng hương thảo Love World</h5>
                       <p class="card-text text-danger">159.000VND</p>
-                      <a href="./detail_products/detail_KemDanhRangHuongThaoLove.html" class="btn btn-success"><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_KemDanhRangHuongThaoLove.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -228,7 +207,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu gội phủ bạc Love World tinh chất than trúc nhật</h5>
                       <p class="card-text text-danger">490.000VND</p>
-                      <a href="./detail_products/detail_DauGoiPhuBacTinhChatThanTruc.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauGoiPhuBacTinhChatThanTruc.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -240,7 +219,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu gội đầu Love World tinh chất bưởi</h5>
                       <p class="card-text text-danger">499.000VND</p>
-                      <a href="./detail_products/detail_DauGoiDauTinhChatBuoi.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauGoiDauTinhChatBuoi.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -252,7 +231,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">BBCream Love World tinh chất hoa hồng SPF30+</h5>
                       <p class="card-text text-danger">699.000VND</p>
-                      <a href="./detail_products/detail_BBCreamTinhChatHoaHong.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_BBCreamTinhChatHoaHong.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -274,7 +253,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Enzym rửa thực phẩm love world</h5>
                       <p class="card-text text-danger">349.000VND</p>
-                      <a href="./detail_products/detail_EnzymRuaThucPham.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_EnzymRuaThucPham.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -286,7 +265,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước rửa đa năng Love World</h5>
                       <p class="card-text text-danger">235.000VND</p>
-                      <a href="./detail_products/detail_NuocRuaDaNang.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocRuaDaNang.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -298,7 +277,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước lau sàn kháng khuẩn Love World</h5>
                       <p class="card-text text-danger">333.000VND</p>
-                      <a href="./detail_products/detail_NuocLauSanKhangKhau.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocLauSanKhangKhau.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -310,7 +289,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Kem đánh răng hương thảo Love World</h5>
                       <p class="card-text text-danger">159.000VND</p>
-                      <a href="./detail_products/detail_KemDanhRangHuongThaoLove.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_KemDanhRangHuongThaoLove.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -333,7 +312,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Coffee</h5>
                       <p class="card-text text-danger">450.000VND</p>
-                      <a href="./detail_products/detail_Coffee.html" class="btn btn-success"><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_Coffee.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -355,7 +334,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">BB CREAM AORI</h5>
                       <p class="card-text text-danger">500.000VND</p>
-                      <a href="./detail_products/detail_BBCreamAORI.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_BBCreamAORI.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -367,7 +346,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu tiêu</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_DauTieu.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauTieu.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -379,7 +358,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Secrum thảo dược AI & YOU</h5>
                       <p class="card-text text-danger">1.200.000VND</p>
-                      <a href="./detail_products/detail_SerumThaoDuocAiandU.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_SerumThaoDuocAiandU.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -391,7 +370,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Gel vệ sinh phụ nữ love lady</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_gelVeSinhPhuNuLoveLady.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_gelVeSinhPhuNuLoveLady.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -403,7 +382,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Xịt họng homie</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_XitHongHomie.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_XitHongHomie.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -415,7 +394,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Gel tiêu</h5>
                       <p class="card-text text-danger">399.000VND</p>
-                      <a href="./detail_products/detail_gelTieu.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_gelTieu.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -427,7 +406,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước giặc sinh học IWASH (màu hồng hương hoa)</h5>
                       <p class="card-text text-danger">180.000VND</p>
-                      <a href="./detail_products/detail_NuocGiacSinhHocIWashMauHongHuongHoa.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocGiacSinhHocIWashMauHongHuongHoa.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -439,7 +418,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước giặc sinh học IWASH</h5>
                       <p class="card-text text-danger">180.000VND</p>
-                      <a href="./detail_products/detail_NuocGiacSinhHocIWash.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocGiacSinhHocIWash.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -451,7 +430,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">DETOXPRO</h5>
                       <p class="card-text text-danger">1.000.000VND</p>
-                      <a href="./detail_products/detail_DETOXPRO.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DETOXPRO.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -475,7 +454,7 @@
                   <div class="card-body">
                     <h5 class="card-title text-dark">Tẩy tế bào chết Love World tinh chất rau má</h5>
                     <p class="card-text text-danger">299.000VND</p>
-                    <a href="./detail_products/detail_TayTeBaoChetLoveWordTinhChatRauMa.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                    <a href="./detail_products/detail_TayTeBaoChetLoveWordTinhChatRauMa.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                   </div>
                 </div>
               </a>
@@ -487,7 +466,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu tiêu</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_DauTieu.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauTieu.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -498,7 +477,7 @@
                   <div class="card-body">
                     <h5 class="card-title text-dark">Serum thảo dược AI & YOU</h5>
                     <p class="card-text text-danger">1.200.000VND</p>
-                    <a href="#" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                    <a href="#" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                   </div>
                 </div>
               </div>
@@ -508,7 +487,7 @@
                   <div class="card-body">
                     <h5 class="card-title">BB CREAM AORI</h5>
                     <p class="card-text text-danger">500.000VND</p>
-                    <a href="#" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                    <a href="#" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                   </div>
                 </div>
               </div>
@@ -519,7 +498,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Gel vệ sinh phụ nữ love lady</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_gelVeSinhPhuNuLoveLady.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_gelVeSinhPhuNuLoveLady.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -531,7 +510,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Xịt họng homie</h5>
                       <p class="card-text text-danger">400.000VND</p>
-                      <a href="./detail_products/detail_XitHongHomie.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_XitHongHomie.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -543,7 +522,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Gel tiêu</h5>
                       <p class="card-text text-danger">399.000VND</p>
-                      <a href="./detail_products/detail_gelTieu.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_gelTieu.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -555,7 +534,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước giặc sinh học IWASH (màu hồng hương hoa)</h5>
                       <p class="card-text text-danger">180.000VND</p>
-                      <a href="./detail_products/detail_NuocGiacSinhHocIWashMauHongHuongHoa.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocGiacSinhHocIWashMauHongHuongHoa.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -567,7 +546,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Nước giặc sinh học IWASH</h5>
                       <p class="card-text text-danger">180.000VND</p>
-                      <a href="./detail_products/detail_NuocGiacSinhHocIWash.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_NuocGiacSinhHocIWash.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -579,7 +558,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">DETOXPRO</h5>
                       <p class="card-text text-danger">1.000.000VND</p>
-                      <a href="./detail_products/detail_DETOXPRO.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DETOXPRO.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -591,7 +570,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu xả khô Love World tinh chất bưởi</h5>
                       <p class="card-text text-danger">449.000VND</p>
-                      <a href="./detail_products/detail_DauXaKhoTinhChatBuoi.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauXaKhoTinhChatBuoi.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -603,7 +582,7 @@
                     <div class="card-body">
                       <h5 class="card-title text-dark">Dầu gội đầu Love World tinh chất bưởi</h5>
                       <p class="card-text text-danger">499.000VND</p>
-                      <a href="./detail_products/detail_DauGoiDauTinhChatBuoi.html" class="btn btn-success "><i class="fa-solid fa-cart-shopping me-1"></i>Mua</a>
+                      <a href="./detail_products/detail_DauGoiDauTinhChatBuoi.html" class="btn btn-success mt-2"><i class="fa-solid fa-cart-shopping me-2"></i>Xem chi tiết</a>
                     </div>
                   </div>
                 </a>
@@ -675,7 +654,19 @@
         </div>
     </footer>
     <!-- end footer -->
-
+<!-- contact position-fix -->
+<div class="fixed-bottom mb-3 ms-3"><a href="tel:0925328842"">
+  <div class="wrapper d-inline-block">
+    <div class="ring">
+        <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
+            <div class="coccoc-alo-ph-circle"></div>
+            <div class="coccoc-alo-ph-circle-fill"></div>
+            <div class="coccoc-alo-ph-img-circle"></div>
+        </div>
+    </div>
+</div>
+<span class="bg-danger p-2 rounded text-white position-relative telphone" style="width: max-content;">Hotline: 0925.328.842</span>
+</a></div>
     <!-- copyright -->
     <div class="bg-dark text-light text-center"><p class="mb-auto">Copyright 2022 © K02</p></div>
     <!-- end copyright -->
