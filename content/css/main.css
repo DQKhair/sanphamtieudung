@@ -23,4 +23,7 @@ li{
     .telphone{
       display: none;
     }
+    .logo_head div>p>b{
+      font-size: 1rem;
+    }
   }
